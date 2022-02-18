@@ -64,6 +64,15 @@ a:hover {
     color: red;
 }
 
+.about{
+  min-height: 10vh;
+  width: 100%;
+  height: 50%;
+  background-color: lightblue;
+  background-position: center;
+  background-size: auto;
+}
+
 #note-picture{
   display:flex;
   width: 100px;
@@ -72,7 +81,7 @@ a:hover {
   bottom: 150px;
 }
 
-#unordered-lists{
+#about{
   color: black;
   text-align: center;
   padding-top: 50px;
@@ -130,4 +139,65 @@ iframe {
     width:100%;
     height:100%;
     border: dotted;
+}
+
+#reviews{
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+
+table{
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+  line-height: 40px;
+}
+
+table, td {
+    border: 1px solid gray;
+    text-align: center;
+}
+
+input {
+    /*
+        Show different input on top of each other instead of next to each other.
+    */
+    display: block;
+}
+
+.Reviews{
+       min-height: 150vh;
+       min-width: 100vh;
+       height: 100%;
+       width: 100%;
+       background-image: url(smiley.jpg);
+       background-position: center;
+       background-color: lightblue;
+       background-size: cover;
+       position: relative;
+}
+
+#timeline{
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.Timeline{
+       min-height: 50vh;
+       width: 100%;
+       height: 50%;
+       background-color: lightblue;
+       background-position: center;
+       background-size: auto;
+}
+
+.Disclaimer{
+       min-height: 0.5vh;
+       width: 100%;
+       height: 50%;
+       background-color: lightblue;
+       background-position: center;
+       background-size: auto;
 }
