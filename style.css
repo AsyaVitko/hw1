@@ -159,13 +159,6 @@ table, td {
     text-align: center;
 }
 
-input {
-    /*
-        Show different input on top of each other instead of next to each other.
-    */
-    display: block;
-}
-
 .Reviews{
        min-height: 150vh;
        min-width: 100vh;
