@@ -194,3 +194,9 @@ table, td {
        background-position: center;
        background-size: auto;
 }
+
+#Disclaimer{
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
